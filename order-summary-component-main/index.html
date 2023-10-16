@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    body{
+      margin: 0px;
+      font-family:sans-serif;
+      display: flex;
+      justify-content: center;
+      background-color: hsl(225, 100%, 98%);
+      }
+    .main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 480px;
+      width: 290px;
+      margin-left: -30px;
+      margin-top: 90px;
+      background-color: white;
+      box-shadow:5px 10px 15px  grey;
+      border-radius: 15px;
+    }
+   .img img{
+     margin-top: -35px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .sum{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+   }
+   .let{
+    padding-top: 8px;
+    color: rgb(181, 178, 178);
+    text-align: center;
+    font-size: small;
+   }
+   .plan{
+    font-size: medium;
+    padding-left: 20px;
+    margin-top: 10px;
+    background-color: hsl(224, 85%, 95%);
+    border-radius: 10px;
+    padding-top: 3px;
+    width: 220px;
+    height: 70px;
+    margin-left: 25px;
+   }
+   .ap{
+    margin-top: -47px;
+    margin-left: -20px;
+    text-align: center;
+    font-size: 15px;
+   }
+   .price{
+    color:rgb(181, 178, 178) ;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-size: smaller;
+   }
+   .ch {
+    margin-left: 166px;
+    margin-top: -26px;
+    font-size: 12px;
+   }
+   .ch a{
+    color: hsl(245, 85%, 52%);
+   }
+   .btn{
+    margin-left: 25px;
+    margin-top: 20px;
+   }
+   .btn button{
+    height: 40px;
+    width: 242px;
+    border-radius: 12px;
+    border: 2px solid blue;
+    background-color:  blue;
+    color: #fff;
+    box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+
+   }
+   .co{
+    margin-top: 30px;
+    text-align: center;
+    color:rgb(181, 178, 178) ;
+   }
+   .bg svg{
+    height: 1440px;
+    width: 100%;
+   }
+  </style>
+</head>  
+<body>
+  <div class="main">
+    <div class="img"><img width="290px" height="160px" src="illustration-hero.jpg" style="border-radius:15px 15px 0px 0px;"></div>
+    <div class="sum"><b>Order Summary</b></div>
+    <div class="let"> You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</div>
+    <div class="plan"><span style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" style="margin-top: 9px; margin-left:-6px;"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg></span><div class="ap"><b>Annual Plan</b></div>
+      <div class="price">$59.99/year</div><div class="ch"><a href="">Change</a></div></div>
+    <div class="btn"><button>Proceed to Payment</button></div>
+    <div class="co">Cancel Order</div>
+</div>
+</body>
+</html>
